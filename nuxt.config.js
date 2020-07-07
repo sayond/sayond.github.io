@@ -15,14 +15,23 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'SAYOND KOH RONG SANLOEM',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'koh rong, Koh Rong Sanloem, Sayond, Beach Resort, Cambodia, Island, Bungalows, Holidays, Family, Beautiful beach, diving, swimming, paddleboard, Restaurant, beach front' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: "https://use.fontawesome.com/releases/v5.3.1/js/all.js",
+        defer: true
+      }
     ]
   },
   /*
